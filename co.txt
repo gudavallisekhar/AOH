@@ -1,0 +1,17 @@
+Must Have Salesforce Skillset (All Levels)
+·         Customization – Hands On Experience in Apex, Batch, Trigger, Visual Force Page with added Experience of SOQL, Test Class.
+·         Configuration – Hands on Experience in Data Model, Security, Workflows, Validation Rules, Approval Process, Process Builder, Flow.
+
+·         Deployment – Hands on Experience in Changeset 
+Good To Have Salesforce Skillset
+·         Customization – Experience in Future Methods, Queueable
+·         Configuration – Experience in Email Template, Translation Workbench, Partner Portal 
+·         Product Knowledge – Sales Cloud, Service Cloud, Community Cloud
+·         Integration – REST API and SOAP API
+·         Data Migration – Data Loader, Import Wizard
+·         Deployment – Eclipse, ANT
+Additional SkillSet
+·         Ligthting – Lighting Components, Angular.js
+·         Community – Community Builder
+·         Deployment Tools – Jenkins, ANT
+·         Version Control Tools – Github, SVN, TFS
