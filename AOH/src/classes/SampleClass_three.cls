@@ -1,4 +1,4 @@
-public with sharing class SampleClass_four {
+public with sharing class SampleClass_three {
    public void level1(Integer depth1) {
       level2(2);
    }
