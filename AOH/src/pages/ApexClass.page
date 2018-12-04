@@ -1,0 +1,37 @@
+<apex:page controller="ApexClass" >
+    
+   
+    <apex:form >
+    
+        <apex:pageBlock id="listme">
+            
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!myinfo}" value="Listme" reRender="listme" />
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockSection >
+                <apex:pageBlockTable value="{!mylist}" var="me" rendered="{!mylist.size!=NULL}">
+                    <apex:column value="{!me.name}" /> 
+                </apex:pageBlockTable>
+                
+                <apex:dataTable value="{!mylist}" var="me" rendered="{!mylist.size!=NULL}">
+                      <apex:facet name="caption">table caption</apex:facet>
+        <apex:facet name="header">table header</apex:facet>
+        <apex:facet name="footer">table footer</apex:facet>
+                             <apex:column >
+                    <apex:facet name="header">Name</apex:facet>
+                    <apex:facet name="footer">Name</apex:facet>
+                    <apex:outputText value="{!me.name}"/>
+                </apex:column> 
+                </apex:dataTable>
+                <apex:repeat value="{!mylist}" var="me" rendered="{!mylist.size!=NULL}">
+                    {!me.name}
+                </apex:repeat>
+                
+            </apex:pageBlockSection>
+        
+        </apex:pageBlock>
+    
+    
+    </apex:form>
+</apex:page>
